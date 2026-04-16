@@ -3,7 +3,7 @@
 
 ## Disclaimer
 
-This work is based on the open-source [XCIST](https://github.com/xcist) (X-ray CT simulation toolkit) framework.   
+This work is based on the open-source [XCIST](https://github.com/xcist) (X-ray-based Cancer Imaging Simulation Toolkit) framework.   
 This repository contains modifications and extensions for real-data reconstruction and CUDA acceleration.
 
 ---
