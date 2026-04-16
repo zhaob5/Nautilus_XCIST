@@ -1,0 +1,39 @@
+{
+    "n_materials": 1,
+    "mat_name": [
+        "polyethylene_LDPE"
+    ],
+    "volumefractionmap_filename": [
+        "cylinder_polyethylene_LDPE_240mmD_2500x2500x1.raw"
+    ],
+    "volumefractionmap_datatype": [
+        "float"
+    ],
+    "cols": [
+        2500
+    ],
+    "rows": [
+        2500
+    ],
+    "slices": [
+        1
+    ],
+    "x_size": [
+        0.1
+    ],
+    "y_size": [
+        0.1
+    ],
+    "z_size": [
+        1.0
+    ],
+    "x_offset": [
+        1250.5
+    ],
+    "y_offset": [
+        1250.5
+    ],
+    "z_offset": [
+        1.0
+    ]
+}

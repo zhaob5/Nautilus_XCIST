@@ -1,0 +1,63 @@
+{
+    "n_materials": 2,
+
+    "mat_name": [
+        "air",
+        "polyethylene_LDPE"
+    ],
+
+    "volumefractionmap_filename": [
+        "cylinder_air_2600x2600x1.raw",
+        "cylinder_polyethylene_LDPE_2600x2600x1.raw"
+    ],
+
+    "volumefractionmap_datatype": [
+        "float",
+        "float"
+    ],
+
+    "cols": [
+        2600,
+        2600
+    ],
+
+    "rows": [
+        2600,
+        2600
+    ],
+
+    "slices": [
+        1,
+        1
+    ],
+
+    "x_size": [
+        0.1,
+        0.1
+    ],
+
+    "y_size": [
+        0.1,
+        0.1
+    ],
+
+    "z_size": [
+        3.0,
+        3.0
+    ],
+
+    "x_offset": [
+        1300.5,
+        1300.5
+    ],
+
+    "y_offset": [
+        1300.5,
+        1300.5
+    ],
+
+    "z_offset": [
+        1.0,
+        1.0
+    ]
+}

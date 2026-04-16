@@ -1,0 +1,43 @@
+
+all: libcatsim64.dll
+
+include ..\MakeVariables_1
+
+include ..\MakeVariables_3
+
+CXXFLAGS = -O3 -Wall -fopenmp
+CFLAGS = -O3 -fopenmp
+
+LFLAGS = -LC:\PROGRA~1\mingw64\lib -LD:\Anaconda\Lib\site-packages\gecatsim\lib -lpthreadGC2_x64
+IFLAGS = -IC:\PROGRA~1\mingw64\include -ID:\Anaconda\Lib\site-packages\gecatsim\lib\Pre-built.2\include
+
+
+
+libcatsim64.dll: $(OBJECTS)
+	@echo ............................................
+	@echo .
+	@echo . Building Windows library ...
+	@echo .
+	@echo .
+	$(CXX) -static-libgcc -static-libstdc++ -fopenmp -o libcatsim64.dll -shared $(OBJECTS) $(LFLAGS) $(IFLAGS)
+	@echo .
+	@echo .
+	@echo .
+	@echo . Done building Windows library.
+	@echo .
+	@echo ............................................
+
+clean:
+	@echo ............................................
+	@echo .
+	@echo . Cleaning ...
+	@echo .
+	@echo .
+	del /Q *.o
+	@echo .
+	@echo .
+	@echo . Done cleaning.
+	@echo .
+	@echo ............................................
+
+# DO NOT DELETE

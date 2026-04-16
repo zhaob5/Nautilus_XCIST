@@ -1,0 +1,63 @@
+{
+    "n_materials": 2,
+
+    "mat_name": [
+        "air",
+        "polyethylene_LDPE"
+    ],
+
+    "volumefractionmap_filename": [
+        "lp_air_2500x2500x1.raw",
+        "lp_polyethylene_LDPE_2500x2500x1.raw"
+    ],
+
+    "volumefractionmap_datatype": [
+        "float",
+        "float"
+    ],
+
+    "cols": [
+        2500,
+        2500
+    ],
+
+    "rows": [
+        2500,
+        2500
+    ],
+
+    "slices": [
+        1,
+        1
+    ],
+
+    "x_size": [
+        0.05,
+        0.05
+    ],
+
+    "y_size": [
+        0.05,
+        0.05
+    ],
+
+    "z_size": [
+        5.0,
+        5.0
+    ],
+
+    "x_offset": [
+        1250.5,
+        1250.5
+    ],
+
+    "y_offset": [
+        1250.5,
+        1250.5
+    ],
+
+    "z_offset": [
+        1.0,
+        1.0
+    ]
+}
